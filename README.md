@@ -27,7 +27,7 @@ Both notebooks are self-contained: they install dependencies via pip and define 
 
 **Tools:** You may use any LLM (ChatGPT, Claude, Copilot, etc.) freely. Using AI tools well is an engineering skill we value. You are fully responsible for the correctness of everything you submit.
 
-**Submit:** (1) One PDF or markdown document with Parts A-E, and (2) one runnable Colab notebook for Part D. Commit everything to your fork.
+**Submit:** (1)Submit the answers in the form for Parts A-E, and (2) one runnable Colab notebook for Part D. Commit everything to your fork.
 
 **Setup:** Fork this repo. Read the two results markdown files and look at the two PNG charts. Skim at least one notebook. Then start your timer.
 
@@ -39,7 +39,7 @@ Both notebooks are self-contained: they install dependencies via pip and define 
 
 You've inherited this codebase and need to take it to a workshop submission. Before adding anything, you need to know what's missing.
 
-**Review the repository: code, notebooks, results files, and images. Identify the 3 most critical weaknesses that would cause a reviewer to reject this work.**
+**Review the repository: code, notebooks, results files, and images. Identify the 2 most critical weaknesses that would cause a reviewer to reject this work.**
 
 For each weakness, write:
 
@@ -67,7 +67,7 @@ For each weakness, write:
 
 ### Part C: Experimental Design (30 minutes, 25 points)
 
-**Propose exactly 3 new experiments that would strengthen this submission. Rank them 1 (most important) to 3.**
+**Propose exactly 2 new experiments that would strengthen this submission. Rank them 1 (most important) to 2.**
 
 For each experiment:
 
@@ -117,20 +117,6 @@ Your abstract must contain:
 4. One quantitative result that supports the claim
 
 > A great abstract makes a reader understand what is new and why it matters. A weak abstract describes what was done without staking a claim.
-
----
-
-### What We're Looking For
-
-This isn't a trick test. Here's what separates levels:
-
-| Level | Signal |
-|-------|--------|
-| **Strong hire** | Part A identifies issues specific to this repo (not generic ML critique). Part C experiments are creative and clearly motivated by Part A gaps. Part D notebook runs cleanly and discussion is honest about what was found. Abstract stakes a clear, defensible claim. |
-| **Solid** | Parts A-C are reasonable and well-written. Part D runs but experiment is safe (e.g., just more epochs). Abstract is competent. |
-| **Concerning** | Part A issues are generic ("needs more data"). Part D notebook has errors. Abstract claims MITR universally improves everything (contradicted by the BERT results in the repo). |
-
-We care about **judgment** (did you prioritize the right things?), **honesty** (did you acknowledge what the results don't show?), and **execution** (does the code run?). Polished writing is a plus but never compensates for broken code or unsupported claims.
 
 ---
 
